@@ -82,5 +82,8 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<div style="margin-top: 50px; padding: 20px; text-align: center; border-top: 1px solid #ccc; font-weight: bold; background-color: #f8f9fa;">
+    <p th:text="${'실습 수행 일시: ' + #temporals.format(#temporals.createNow(), 'yyyy년 MM월 dd일 (E) a hh:mm:ss') + ' │ 학번: 2171115 │ 성명: 홍성환'}"></p>
+</div>
 </body>
 </html>
